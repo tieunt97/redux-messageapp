@@ -38,7 +38,7 @@ class App extends Component {
           }} />
         <button onClick={this.handleAddMessage}>Add Message</button>
         <ul>
-          {this.props.messages.map((mess, i) => <Message key={i} index={i} message={mess} />)}
+          {this.props.messages.map((mess, i) => <Message key={i} index={i} />)}
         </ul>
       </div>
     );
